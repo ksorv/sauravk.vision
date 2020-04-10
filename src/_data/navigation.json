@@ -1,18 +1,18 @@
 {
   "items": [
     {
-      "text": "Home",
-      "url": "/",
+      "text": "Posts",
+      "url": "/archive",
       "external": false
     },
     {
       "text": "GitHub",
-      "url": "https://github.com/hankchizljaw/hylia",
+      "url": "https://github.com/ksorv",
       "external": true
     },
     {
       "text": "Twitter",
-      "url": "https://twitter.com/hankchizljaw",
+      "url": "https://twitter.com/sauravkhdoolia",
       "external": true
     }
   ]

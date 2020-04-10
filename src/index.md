@@ -1,10 +1,13 @@
 ---
 layout: home
-title: 'Yo! Saurav here, Check this out!!!'
-postsHeading: Latest posts
+title: "Heya! I'm Saurav, Full Stack Web Dev!!!"
+postsHeading: See What I've Been Upto?
 archiveButtonText: See all posts
 socialImage: ''
 ---
-Hylia is a lightweight [Eleventy](https://11ty.io) starter kit with [Netlify CMS](https://www.netlifycms.org/) pre-configured, so that you can one-click install a progressive, accessible blog in minutes. It also gives you a well organised starting point to extend yourself.
 
-Get started now by [deploying Hylia to Netlify.](https://app.netlify.com/start/deploy?repository=https://github.com/hankchizljaw/hylia&stack=cms)
+I work with ReactJS, GoLang, NodeJS and Some other things. With the help of this place(I call it **The Vision**), I want to help people get into web dev. Have a look on what I've been upto?
+
+Learn something now by [Check my posts here](/archive).
+
+**I'll make courses with tags to have structured courses. Wait till then!**
