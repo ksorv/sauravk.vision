@@ -1,5 +1,5 @@
 ---
-title: Learn HTML5 (For Beginners)
+title: Learn HTML5 in 10 Minutes!
 metaTitle: HTML5 course For Beginners
 metaDesc: I'm making this, cause when I started I grew tired of seeing the same
   shit everywhere. Every course started with so called HTML Basics. So, here
