@@ -24,13 +24,13 @@ After reading this, you'll know CSS enough, enough to create any layout you want
 
 ## Index
 
-* [What is CSS?](https://sauravk.vision/posts/learn-css-in-15-minutes-or-less-1/#heading-what-is-css)
-* [Linking CSS Files To A HTML](https://sauravk.vision/posts/learn-css-in-15-minutes-or-less-1/#heading-adding-or-linking-css-file-to-a-html-file.)
-* [CSS Syntax](https://sauravk.vision/posts/learn-css-in-15-minutes-or-less-1/#heading-css-syntax)
+* [What is CSS?](#heading-what-is-css)
+* [Linking CSS Files To A HTML](#heading-adding-or-linking-css-file-to-a-html-file.)
+* [CSS Syntax](#heading-css-syntax)
 
-  * [CSS Selectors](https://sauravk.vision/posts/learn-css-in-15-minutes-or-less-1/#heading-css-selectors)
-  * [CSS Properties](https://sauravk.vision/posts/learn-css-in-15-minutes-or-less-1/#heading-css-properties)
-* [Resources](https://sauravk.vision/posts/learn-css-in-15-minutes-or-less-1/#heading-resources)
+  * [CSS Selectors](#heading-css-selectors)
+  * [CSS Properties](#heading-css-properties)
+* [Resources](#heading-resources)
 
 - - -
 
