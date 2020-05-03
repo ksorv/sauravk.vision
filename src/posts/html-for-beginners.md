@@ -1,5 +1,5 @@
 ---
-title: Learn HTML5 (For Beginners)
+title: Learn HTML5 in 10 Minutes!
 metaTitle: HTML5 course For Beginners
 metaDesc: I'm making this, cause when I started I grew tired of seeing the same
   shit everywhere. Every course started with so called HTML Basics. So, here
@@ -28,12 +28,13 @@ Now, after this If I saw any of you seeing any other Html basic course, **I'll k
 ## Index
 
 * [What is HTML?](/posts/html-for-beginners/#heading-what-is-html)
-* [HTML Elements](/posts/html-for-beginners/#heading-html-elements)
+* [How to write and serve HTML?](https://sauravk.vision/posts/html-for-beginners/#heading-how-to-write-and-serve-html)
+* [HTML Elements](https://sauravk.vision/posts/html-for-beginners/#heading-html-elements!)
 * [HTML Tags](/posts/html-for-beginners/#heading-html-tags)
 * [HTML Attributes](/posts/html-for-beginners/#heading-html-attributes)
 * [HTML Comments](/posts/html-for-beginners/#heading-html-comments)
 * [White Spaces In HTML](/posts/html-for-beginners/#heading-white-spaces-in-html)
-* [Special Characters in HTML](/posts/html-for-beginners/#heading-special-characters-in-html)
+* [References: Special Characters in HTML](https://sauravk.vision/posts/html-for-beginners/#heading-references:-special-characters-in-html)
 * [Wrapping Up](/posts/html-for-beginners/#heading-wrapping-up)
 * [References](/posts/html-for-beginners/#heading-references)
 * [End Of The Course](/posts/html-for-beginners/#heading-end-of-the-course)
@@ -206,9 +207,13 @@ You'll use:
 <p>In HTML, you define a paragraph using the &lt;p&gt; element.</p>
 ```
 
+- - -
+
 ## Wrapping up
 
 This was everything about HTML that you needed to learn. You can constantly practice writing HTML and/or creating sites, what will follow is that you'll start to remember all these things like *tags* and *attributes*. So, we're done with HTML. Check out other [Courses](/tags/courses), such as on [CSS basics](/posts/css-for-beginners), [JS basics](/posts/js-for-beginners) and what not.
+
+- - -
 
 ## References
 
