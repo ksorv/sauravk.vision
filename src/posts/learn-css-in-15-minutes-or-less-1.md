@@ -18,6 +18,8 @@ Thanks You for your great response. As you asked for it:
 
 **Here is the CSS3 course for beginners!**
 
+- - -
+
 After reading this, you'll know CSS enough, enough to create any layout you want.
 
 ## Index
@@ -263,9 +265,11 @@ Now, You can totally ask: **When I dont know shit about CSS? How can I use it?**
 
 **I'll make some video tutorials where we'll move further by using CSS in real time instead of just memorizing it.**
 
-Okay, So after this post, Click on these and add them to your bookmarks. 
+Okay, Click on these and add them to your bookmarks. 
 
-\---
+- - -
+
+## Resources
 
 Please do complete these open source CSS courses:
 
@@ -275,7 +279,7 @@ Please do complete these open source CSS courses:
 
 [Learn CSS Layout](http://learnlayout.com/), Don't worry if you can't. I'll teach you later. :-)
 
-\---
+- - -
 
 I'll end this post with it. As this post is just meant for beginners. But as I see people are eager to learn.
 
