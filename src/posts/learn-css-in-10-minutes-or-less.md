@@ -24,13 +24,12 @@ After reading this, you'll know CSS enough, enough to create any layout you want
 
 ## Index
 
-* [What is CSS?](#heading-what-is-css)
-* [Linking CSS Files To A HTML](#heading-adding-or-linking-css-file-to-a-html-file.)
-* [CSS Syntax](#heading-css-syntax)
-
-  * [CSS Selectors](#heading-css-selectors)
-  * [CSS Properties](#heading-css-properties)
-* [Resources](#heading-resources)
+* [What is CSS?](/#heading-what-is-css)
+* [Linking CSS Files To A HTML](/#heading-adding-or-linking-css-file-to-a-html-file.)
+* [CSS Syntax](/#heading-css-syntax)
+  * [CSS Selectors](/#heading-css-selectors)
+  * [CSS Properties](/#heading-css-properties)
+* [Resources](/#heading-resources)
 
 - - -
 
