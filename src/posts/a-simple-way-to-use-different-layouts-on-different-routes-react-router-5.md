@@ -12,7 +12,7 @@ tags:
 ---
 Simply use:
 
-```
+```jsx
 <Route exact path={[
                   Routes.HOME,
                   Routes.EXPLORE,
