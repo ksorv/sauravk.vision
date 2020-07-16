@@ -14,6 +14,11 @@
       "text": "Twitter",
       "url": "https://twitter.com/sauravkhdoolia",
       "external": true
+    },
+    {
+      "text": "AMA",
+      "url": "https://github.com/sauravkhdoolia/ama",
+      "external": true
     }
   ]
 }
