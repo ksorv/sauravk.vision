@@ -101,9 +101,7 @@ So, Do create elements in good order and make use of the Document Flow.
 Create Website like this :=>
 Think about Document Structure, Then think about Layout.
 
-### Once you have well-structured document, You'll start thinking about layout. Then, You'll need some elements out of normal order. How you do that?
-
-**We have a whole lot of layout methods to use for the same, Let's look at some!**
+**Once you have well-structured document, You'll start thinking about layout. Then, You'll need some elements out of normal order. How you do that?**
 
 ---
 
