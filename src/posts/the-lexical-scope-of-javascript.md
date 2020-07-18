@@ -36,7 +36,7 @@ So, What is lexical scope in here! Let's break it down.
 * Compiler then, declares a `const Greet` and assigns it the func we defined, in Global scope.
 * Then, Compiler goes inside the function we defined(New Scope Manager for the function), and checks(consults the global scope manager) if there is a greeting variable already defined in the upper scope(i.e, Global scope), if not, then it goes ahead and declares greeting.
 
-  * The Compiler checks in with current Scope Manager(of function), if there is a \`greeting\` declaration.
+  * The Compiler checks in with current Scope Manager(of function), if there is a `greeting` declaration.
   * Then, Compiler checks for call, but 
 
     The functions Scope Manager says: I don't know bruh, Who's this? Ask big brother global Scope Manager!
