@@ -53,6 +53,10 @@ There are more steps, but let's not discuss them now. I think you get what lexic
 
 If still, You've got some doubts? Let's discuss them, Tweet [@sauravkhdoolia](https://twitter.com/sauravkhdoolia)
 
+### Resources: 
+
+\- [Scopes](https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/ch1.md)
+
 \---
 
 You're reading this post on The Vision project. Please report any issues [here](https://github.com/sauravkhdoolia/sauravk.vision/issues/new)
