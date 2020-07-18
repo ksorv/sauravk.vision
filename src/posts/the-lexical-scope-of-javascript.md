@@ -44,7 +44,7 @@ So, What is lexical scope in here! Let's break it down.
     Compiler asks global Scope manager, it replies with **Yes!, I've call already declared**.
 
     This is lexing, The `call` declaration is available to function's Scope Manager through `lexical scope`.
-  * **Lexical Scope** is nothing too complicated(assume it!), It is just the Scope that is determined during the compilation.
+  * **Lexical Scope** is nothing too complicated(assume it!), It is just the Scope that is determined during the compilation and is available from outer to inner scopes. e.g, Global scope is available to every scope, so on and so forth.
 * Compiler then comes to the `Greet("Saurav")` statement. Checks Greet, it's declared and Compilers compiles the code to AST.
 
 **Execution takes place after this.**
