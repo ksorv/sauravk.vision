@@ -14,24 +14,25 @@ tags:
   - css
   - css-beginners
 ---
+
 Thanks You for your great response. As you asked for it:
 
 **Here is the CSS3 course for beginners!!!**
 
-- - -
+---
 
 After reading this, you'll know CSS enough, enough to create any layout you want.
 
 ## Index
 
-* [What is CSS?](#heading-what-is-css)
-* [Linking CSS Files To A HTML](#heading-adding-or-linking-css-file-to-a-html-file.)
-* [CSS Syntax](#heading-css-syntax)
-  * [CSS Selectors](#heading-css-selectors)
-  * [CSS Properties](#heading-css-properties)
-* [Resources](#heading-resources)
+- [What is CSS?](#heading-what-is-css)
+- [Linking CSS Files To A HTML](#heading-adding-or-linking-css-file-to-a-html-file.)
+- [CSS Syntax](#heading-css-syntax)
+  - [CSS Selectors](#heading-css-selectors)
+  - [CSS Properties](#heading-css-properties)
+- [Resources](#heading-resources)
 
-- - -
+---
 
 ## What is CSS?
 
@@ -46,34 +47,33 @@ CSS1 is obsolete. CSS2.1 is used in all browsers by default as per W3C specifica
 In a Folder Create two files, `styles.css` and `index.html.` Create HTML file as:
 
 ```html
-Index.html :- 
+Index.html :-
 
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>Getting started with CSS</title>
-</head>
+  </head>
 
-<body>
-    
+  <body>
     <h1>Level one heading</h1>
 
-    <p>A paragraph of text. In the text is a <span>span element</span> 
-and also a <a href="http://example.com">link</a>.</p>
+    <p>
+      A paragraph of text. In the text is a <span>span element</span> and also a
+      <a href="http://example.com">link</a>.
+    </p>
 
     <p>This is the second paragraph. It contains an <em>emphasized</em> element.</p>
 
     <ul>
-        <li class="list" id="one">Item one</li>
-        <li class="list two">Item two</li>
-        <li>Item <em>three</em></li>
+      <li class="list" id="one">Item one</li>
+      <li class="list two">Item two</li>
+      <li>Item <em>three</em></li>
     </ul>
-  
-  <input type="text" />
 
-</body>
-
+    <input type="text" />
+  </body>
 </html>
 ```
 
@@ -82,7 +82,7 @@ Now, that's something we learned in the last post... I don't think there is anyt
 To Add CSS to a HTML file, we use `<link>` tags in the head. How?
 
 ```html
-<link type="text/css" rel="stylesheet" href="styles.css">
+<link type="text/css" rel="stylesheet" href="styles.css" />
 
 <!-- 
 type: Used to tell the browser or parsers the file type, 
@@ -106,7 +106,7 @@ body {
 ```
 
 Open the HTML File by double clicking it. If you see Red page then everything is fine, else something is wrong.\
-**Congrats!** That's your first CSS rule applied to a HTML File. 
+**Congrats!** That's your first CSS rule applied to a HTML File.
 
 Wait, **What's a CSS rule? Here are some important terms!!!**
 
@@ -117,10 +117,9 @@ CSS is made of rules that you can write to tell browser what styles to apply. Yo
 That thing you copied to CSS, is a CSS rule.
 
 `body {`\
-     `background: red;
-}`
+ `background: red; }`
 
-The Rule is starts with a selector. 
+The Rule is starts with a selector.
 
 ### **CSS Selectors**
 
@@ -136,41 +135,41 @@ CSS Comments are like this. :-)
 */
 
 .class {
- /* CSS rules here*/ 
+  /* CSS rules here*/
 }
 
 #id {
- /* CSS rules here*/ 
+  /* CSS rules here*/
 }
 
 tagsOrElements {
- /* CSS rules here*/ 
+  /* CSS rules here*/
 }
 
 element.class {
   /* This selects a element with class attribute 'class'.
      [Please, Don't get confued]
-  */ 
+  */
 }
 
 element#id {
-  /* This selects a element with id attribute 'id'. */ 
+  /* This selects a element with id attribute 'id'. */
 }
 
 .class1 .class2 {
- /* Mind the space when selecting elements with two classes 
+  /* Mind the space when selecting elements with two classes 
     It'll select all the elements having both classes class1 & class2.
     Same with Ids. */
 }
 
-[type=text] {
+[type='text'] {
   /* These are attribute selectors, 
      You can select element with some [attr=value] as shown. */
 }
 
 * {
- /* Universal Selector, Selects all the elements. 
-    Remember *.class is same as .class! */ 
+  /* Universal Selector, Selects all the elements. 
+    Remember *.class is same as .class! */
 }
 
 selector:active {
@@ -184,12 +183,13 @@ selector:hover {
      When hovered, or to created animations on hover.*/
 }
 
-selector1, selector2 {
+selector1,
+selector2 {
   /* This will select both selectors together,*/
 }
 
-ul>li{
- /* This is child selector, You can use this to select childs of any element.*/ 
+ul > li {
+  /* This is child selector, You can use this to select childs of any element.*/
 }
 
 /*
@@ -209,7 +209,7 @@ After a selector, {} comes which contains the properties which needs to be appli
 A CSS propertyis a characteristic (like color) whose associated value defines one aspect of how the browser should display the element.
 
 We've **hundreds if not thousands of CSS properties**. And then thousands of values for them. \
-I can't and won't discuss all of them here. 
+I can't and won't discuss all of them here.
 
 So, Instead I think I'll create a Course where I create some layouts, or Static sites. \
 So, You can learn from there. Other than that, CSS Properties:
@@ -217,35 +217,34 @@ So, You can learn from there. Other than that, CSS Properties:
 ```css
 selector {
   /* I'll list as many as I can or think helpful*/
-  
+
   /* Background */
   background-color: red; /* It sets background color of any element.*/
   background-image: 'https://example.com/image.jpg'; /* bg Image for element*/
   background: whatever color; /* This includes every background prop like color, image etc.*/
   background: url to image; /* Will work as background-image */
-  
+
   /* Border, Instead of long text you gotta specify values ;-) */
   border: sets all border properties in one line;
   border-image: url; /* sets an image as border */
-  
+
   border-radius: border radius of the four rounded corners;
   /* We'll talk about units Soon */
-  
+
   border-left: left border properties in one line;
   border-left-color: border left color;
   border-left-style: border left style;
   border-left-width: border left width;
-  
+
   /* Box props */
   box-shadow: shadow to element;
   box-sizing: box sizing properties; /* Google it or check ref link at end */
-  
+
   color: text-color;
   cursor: cursor type when item hovered;
   display: sets the display type of an element;
   /* Will be covered in next Layout course. */
- 
-  }
+}
 
 /*
 Ok, I got tired!
@@ -260,9 +259,9 @@ I'll list some good resources at the end of the post.
 */
 ```
 
-That's about it for CSS. 
+That's about it for CSS.
 
-Now, Let's talk about it, As I kind of know you're disturbed by the fact that this post has nothing.
+Now, Let's talk about it, As I kind of know you're docsurbed by the fact that this post has nothing.
 
 Actually, CSS is just a set of rules that you'll remember with time and if you can't get them in your memory, There is no problem Cause When you use them, You'll get used to them. **Or You can Google them, Anytime you want.**
 
@@ -272,9 +271,9 @@ Now, You can totally ask: **When I dont know shit about CSS? How can I use it?**
 
 **I'll make some video tutorials where we'll move further by using CSS in real time instead of just memorizing it.**
 
-Okay, Click on these and add them to your bookmarks. 
+Okay, Click on these and add them to your bookmarks.
 
-- - -
+---
 
 ## Resources
 
@@ -286,7 +285,7 @@ Please do complete these open source CSS courses:
 
 [Learn CSS Layout](http://learnlayout.com/), Don't worry if you can't. I'll teach you later. :-)
 
-- - -
+---
 
 I'll end this post with it. As this post is just meant for beginners. But as I see people are eager to learn.
 

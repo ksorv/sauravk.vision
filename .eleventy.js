@@ -1,6 +1,6 @@
 const rssPlugin = require('@11ty/eleventy-plugin-rss');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
-const fs = require("fs");
+const fs = require('fs');
 
 // Import filters
 const dateFilter = require('./src/filters/date-filter.js');
@@ -55,13 +55,13 @@ module.exports = function(config) {
   config.addPlugin(rssPlugin);
   config.addPlugin(syntaxHighlight);
 
-  // 404 
+  // 404
   config.setBrowserSyncConfig({
     callbacks: {
       ready: function(err, browserSync) {
-        const content_404 = fs.readFileSync('dist/404.html');
+        const content_404 = fs.readFileSync('docs/404.html');
 
-        browserSync.addMiddleware("*", (req, res) => {
+        browserSync.addMiddleware('*', (req, res) => {
           // Provides the 404 content without redirect.
           res.write(content_404);
           res.end();
@@ -73,7 +73,7 @@ module.exports = function(config) {
   return {
     dir: {
       input: 'src',
-      output: 'dist'
+      output: 'docs'
     },
     passthroughFileCopy: true
   };

@@ -119,8 +119,8 @@ There are may be 100 HTML tags that you'll learn someday. I wont write all of th
 
 That's all I'll tell you for now. Now see this and check how all of these looks, you can also change anything to see preview.
 
-<iframe height="265" style="width: 100%; border: 2px solid black; " scrolling="no" title="HTML" src="https://codepen.io/sauravkk/embed/preview/abvzYpb?height=265&theme-id=light&default-tab=html,result" frameborder="no" allowtransparency="true" allowfullscreen="true" loading="lazy"> See the Pen <a href='https://codepen.io/sauravkk/pen/abvzYpb'>HTML</a> by Saurav kumar (<a href='https://codepen.io/sauravkk'>@sauravkk</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
+<!-- <iframe height="265" style="width: 100%; border: 2px solid black; " scrolling="no" title="HTML" src="https://codepen.io/sauravkk/embed/preview/abvzYpb?height=265&theme-id=light&default-tab=html,result" frameborder="no" allowtransparency="true" allowfullscreen="true" loading="lazy"> See the Pen <a href='https://codepen.io/sauravkk/pen/abvzYpb'>HTML</a> by Saurav kumar (<a href='https://codepen.io/sauravkk'>@sauravkk</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe> -->
 
 ## HTML Attributes
 

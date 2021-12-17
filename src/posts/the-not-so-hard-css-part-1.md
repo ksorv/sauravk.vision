@@ -8,8 +8,9 @@ date: 2020-07-16T14:44:48.412Z
 tags:
   - CSS
   - Document Flow
-  - ""
+  - ''
 ---
+
 # Document Flow
 
 ## What is Normal Flow of Documents?
@@ -50,10 +51,10 @@ There is much more to `display` [here](https://developer.mozilla.org/en-US/docs/
 
 ---
 
-<iframe height="235" style="width: 100%;" scrolling="no" title="Normal Doc Flow" src="https://codepen.io/sauravkk/embed/OJyoGQv?height=235&theme-id=dark&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+<!-- <iframe height="235" style="width: 100%;" scrolling="no" title="Normal Doc Flow" src="https://codepen.io/sauravkk/embed/OJyoGQv?height=235&theme-id=dark&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/sauravkk/pen/OJyoGQv'>Normal Doc Flow</a> by Saurav kumar
   (<a href='https://codepen.io/sauravkk'>@sauravkk</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
+</iframe> -->
 
 ### How are elements laid out by default?
 
@@ -71,7 +72,6 @@ This is a block here.
 
 Another one here. I think you got what I mean! Refer the image above.
 
-
 **Block level elements** are generally laid out vertically based on _block flow direction_, which is based on parent's writing mode as shown above, and each one will appear on a new line below the last one, and they will be separated by any margin that is set on them.
 
 **Inline elements** behave differently — they don't appear on new lines; instead, they sit on the same line as one another and any adjacent (or wrapped) text content, as long as there is space for them to do so inside the width of the parent block level element. If there isn't space, then the overflowing text or elements will move down to a new line.
@@ -80,10 +80,10 @@ Another one here. I think you got what I mean! Refer the image above.
 
 If two adjacent elements both have the margin set on them and the two margins touch, the larger of the two remains, and the smaller one disappears — this is called **margin collapsing**.
 
-<iframe height="541" style="width: 100%;" scrolling="no" title="Normal Doc Flow" src="https://codepen.io/sauravkk/embed/QWjVPqZ?height=541&theme-id=dark&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+<!-- <iframe height="541" style="width: 100%;" scrolling="no" title="Normal Doc Flow" src="https://codepen.io/sauravkk/embed/QWjVPqZ?height=541&theme-id=dark&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/sauravkk/pen/QWjVPqZ'>Normal Doc Flow</a> by Saurav kumar
   (<a href='https://codepen.io/sauravkk'>@sauravkk</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
+</iframe> -->
 
 Normal flow is where you begin with any layout: when you create a CSS Layout, you are taking the blocks and causing them to do something other than normal flow.
 

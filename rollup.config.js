@@ -6,14 +6,9 @@ const json = require('rollup-plugin-json');
 export default {
   input: 'src/admin/util',
   output: {
-    file: 'dist/admin/util.js',
+    file: 'docs/admin/util.js',
     format: 'iife',
-    name: 'previewUtil',
+    name: 'previewUtil'
   },
-  plugins: [
-    builtins(),
-    nodeResolve(),
-    commonjs(),
-    json(),
-  ]
+  plugins: [builtins(), nodeResolve(), commonjs(), json()]
 };
